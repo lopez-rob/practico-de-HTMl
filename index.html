@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Request</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Support</h1>
+        <p>Send us your comments, questions, or support requests.</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="support-form-title">
+            <h2 id="support-form-title">Submit a Request</h2>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </p>
+
+                <p>
+                    <label for="category">Category</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a category</option>
+                        <option value="question">Question</option>
+                        <option value="technical-support">Technical Support</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
