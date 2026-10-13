@@ -3,45 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support Request</title>
+    <title>Global Academy Dashboard</title>
 </head>
 <body>
     <header>
-        <h1>Contact Support</h1>
-        <p>Send us your comments, questions, or support requests.</p>
+        <table>
+            <tr>
+                <td>
+                    <h1>GLOBAL ACADEMY</h1>
+                </td>
+                <td>
+                    <form action="#" method="get">
+                        <label for="search">Search</label>
+                        <input type="search" id="search" name="search" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
+                </td>
+                <td>
+                    <nav aria-label="Account navigation">
+                        <a href="#dashboard">Dashboard</a> |
+                        <a href="#courses">My Courses</a> |
+                        <a href="#resources">Resources</a> |
+                        <a href="#community">Community</a> |
+                        <a href="#help">Help</a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
     </header>
 
-    <main>
-        <section aria-labelledby="support-form-title">
-            <h2 id="support-form-title">Submit a Request</h2>
+    <main id="dashboard">
+        <table>
+            <tr>
+                <td>
+                    <aside aria-labelledby="quick-access-title">
+                        <h2 id="quick-access-title">Quick Access</h2>
+                        <nav aria-label="Quick access">
+                            <ul>
+                                <li><a href="#announcements">Announcements</a></li>
+                                <li><a href="#calendar-events">Calendar Events</a></li>
+                                <li><a href="#grades">Grades</a></li>
+                                <li><a href="#faculty-directory">Faculty Directory</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+                </td>
+                <td>
+                    <section id="learning-hub" aria-labelledby="learning-hub-title">
+                        <h2 id="learning-hub-title">Learning Hub</h2>
+                        <article>
+                            <h3>WELCOME BACK</h3>
+                            <p>Join your bank at e-learning and life in the motivational and get into your community truth.</p>
+                        </article>
+                    </section>
 
-            <form action="#" method="post">
-                <p>
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required>
-                </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <section id="courses" aria-labelledby="course-schedule-title">
+                                    <h2 id="course-schedule-title">Course Schedule</h2>
+                                    <table>
+                                        <caption>Course schedule and status</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Module</th>
+                                                <th scope="col">Topic</th>
+                                                <th scope="col">Instructor</th>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td rowspan="4">Module 1</td>
+                                                <td>Learning &amp; Profession Courses</td>
+                                                <td>John B. H.</td>
+                                                <td>8/12/2024</td>
+                                                <td>Complete</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Experiential Learning</td>
+                                                <td>Berni Matt</td>
+                                                <td>3/11/2024</td>
+                                                <td>Complete</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Summary Learning</td>
+                                                <td>J. F.</td>
+                                                <td>1/11/2024</td>
+                                                <td>Complete</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Student Schedule</td>
+                                                <td>German S.</td>
+                                                <td>8/12/2024</td>
+                                                <td>Success</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="3">Module 2</td>
+                                                <td>Development Learning</td>
+                                                <td>Flashmaster</td>
+                                                <td>8/12/2024</td>
+                                                <td>Success</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Social Learning</td>
+                                                <td>Mary W.</td>
+                                                <td>8/12/2024</td>
+                                                <td>Plan</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Designs &amp; Communities</td>
+                                                <td>Mary W.</td>
+                                                <td>8/12/2024</td>
+                                                <td>Plan</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="3">Module 3</td>
+                                                <td>Summary Schedule</td>
+                                                <td>Jims A.</td>
+                                                <td>01/13/2024</td>
+                                                <td>Plan</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Complete Learning</td>
+                                                <td>Mary M.</td>
+                                                <td>9/12/2024</td>
+                                                <td>Complete</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Development Learning</td>
+                                                <td>German S.</td>
+                                                <td>9/12/2024</td>
+                                                <td>Success</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </section>
+                            </td>
+                            <td>
+                                <aside id="resources" aria-labelledby="recommended-reading-title">
+                                    <h2 id="recommended-reading-title">Recommended Reading</h2>
+                                    <article>
+                                        <h3>Recommended Articles</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Immensum est, risus in labore consectetur adipiscing elit.</p>
+                                    </article>
+                                    <article>
+                                        <h3>Fast Fitting Becoming Articles</h3>
+                                        <p>Following significant communication and materials and information around sites, in a good proportions.</p>
+                                    </article>
+                                    <article>
+                                        <h3>Recommended Articles</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consultatur enim comparatione partium.</p>
+                                    </article>
+                                </aside>
+                            </td>
+                        </tr>
+                    </table>
 
-                <p>
-                    <label for="category">Category</label>
-                    <select id="category" name="category" required>
-                        <option value="">Select a category</option>
-                        <option value="question">Question</option>
-                        <option value="technical-support">Technical Support</option>
-                        <option value="feedback">Feedback</option>
-                        <option value="other">Other</option>
-                    </select>
-                </p>
-
-                <p>
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
-                </p>
-
-                <p>
-                    <button type="submit">Send</button>
-                </p>
-            </form>
-        </section>
+                    <section id="feedback-support" aria-labelledby="feedback-support-title">
+                        <h2 id="feedback-support-title">Feedback &amp; Support</h2>
+                        <form action="#" method="post">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="subject">Subject</label>
+                                        <br>
+                                        <input type="text" id="subject" name="subject" required>
+                                    </td>
+                                    <td>
+                                        <label for="category">Category</label>
+                                        <br>
+                                        <select id="category" name="category" required>
+                                            <option value="">Select Category</option>
+                                            <option value="question">Question</option>
+                                            <option value="technical-support">Technical Support</option>
+                                            <option value="feedback">Feedback</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label for="message">Your Message</label>
+                                        <br>
+                                        <textarea id="message" name="message" rows="5" required></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="submit">Send</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </section>
+                </td>
+            </tr>
+        </table>
     </main>
+
+    <footer>
+        <nav aria-label="Footer navigation">
+            <a href="#about-us">About Us</a> |
+            <a href="#privacy-policy">Privacy Policy</a> |
+            <a href="#terms-of-use">Terms of Use</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <p>© 2024 GLOBAL ACADEMY</p>
+    </footer>
 </body>
 </html>
